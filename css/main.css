@@ -1,0 +1,137 @@
+.main .option .menu {
+  width: 250px;
+  height: 300px;
+}
+
+.main .option .menu {
+  box-shadow: 0px 8px 16px 5px rgba(0, 0, 0, 0.2);
+}
+
+.item-menu {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.main .option .menu .nav-item:hover .item-menu {
+  background-color: #AED2FF;
+  color: white;
+}
+
+.material {
+  line-height: 0;
+}
+
+.slideshow_option {
+  width: 900px;
+  height: 450px;
+}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.myslides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev-show, .next-show {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next-show {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-show:hover, .next-show:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot-show {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active-slide, .dot-show:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fad {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fad {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.one_product {
+  color: #AED2FF;
+  text-decoration: none;
+}
+
+.title_products {
+  color: #00BFFF;
+  font-size: 25px;
+}
+
+.border_title {
+  border-bottom: 1px solid #00BFFF;
+}
+
+.main .main_product .img_product {
+  height: 250px;
+  overflow: hidden;
+}
+
+.main .main_product .img_product img {
+  object-fit: cover;
+}
+
+.main .main_product .price {
+  color: red;
+}
+
+.main .main_product .title_price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.main .main_product .one_product:hover .img_product img {
+  transform: scale(1.12, 1.12);
+  object-fit: cover;
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=main.css.map */

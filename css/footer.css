@@ -1,0 +1,27 @@
+.footer {
+  height: 400px;
+  background-color: #AED2FF;
+  color: #000;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.info-shop {
+  list-style-type: none;
+}
+
+.footer .big {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.footer-left, .footer-center, .footer-right {
+  width: 400px;
+}
+
+.footer .fix_map {
+  width: 100%;
+  height: 270px;
+}
+
+/*# sourceMappingURL=footer.css.map */
