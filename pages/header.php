@@ -48,7 +48,7 @@
                                     <?php
                             if ($_SESSION['level']==0 ) {
                             ?>
-                                <a href="http://localhost/DoAn_KH_PTDL/admincp" class="btn_login d-flex">
+                                <a href="http://localhost/DoAn_KH_PTDL/admincp" target="_blank" class="btn_login d-flex">
                                     <span class="material-symbols-outlined">
                                         account_circle
                                     </span>
